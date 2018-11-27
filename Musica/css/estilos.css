@@ -1,0 +1,56 @@
+.logo-img {
+  height: 150px;
+  margin: 0 20px;
+}
+.header{
+  margin: 0;
+}
+.redes-container{
+  margin-top: 100px;
+}
+header{
+  background-color: black;
+}
+.nav-link{
+  color: white;
+  font-weight: 900;
+  text-align: center;
+}
+.nav-link:hover{
+  color: red;
+}
+@media (max-width: 768px) {
+  .redes-container{
+    margin-top: 0;
+    padding-right: 15px;
+    margin: 0 auto;
+  }
+  .sidebar{
+    display: none;
+  }
+}
+.search{
+  padding: 10px;
+  width: 100%;
+}
+.post{
+  padding: 40px;
+}
+.sidebar{
+  background-color: red;
+}
+.userimg{
+  max-width: 50px;
+}
+.content{
+  margin: 0;
+}
+.btn-side{
+  background-color: black;
+  border-color: white;
+  width: 100%;
+}
+.btn-side:hover{
+  background-color: #343a40;
+  border-color: white;
+}
