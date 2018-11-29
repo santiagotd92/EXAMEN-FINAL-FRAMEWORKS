@@ -1,0 +1,13 @@
+.row{
+  border: solid 1px black;
+}
+.grid-container{
+  border: solid 2px red;
+}
+#fondo{
+  background-image: url("fondo.jpg");
+  background-size: cover;
+}
+.content{
+  background-color: rgba(255, 255, 255, 0.8);
+}
