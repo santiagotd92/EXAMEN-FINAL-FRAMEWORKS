@@ -1,13 +1,41 @@
-.row{
-  border: solid 1px black;
-}
-.grid-container{
-  border: solid 2px red;
-}
+
 #fondo{
   background-image: url("fondo.jpg");
   background-size: cover;
+  background-attachment: fixed;
 }
 .content{
   background-color: rgba(255, 255, 255, 0.8);
+}
+.button{
+  margin: 0;
+}
+#sidebar{
+  padding: 15px;
+}
+#publicacion-txt{
+  margin: 20px 0;
+}
+.post{
+  background-color: orange;
+  padding: 15px 15px 60px 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+@media (max-width: 640px) {
+  .izq{
+    display: none;
+  }
+}
+.button{
+  background-color: red;
+}
+.button:hover{
+  background-color: #730b08;
+}
+a{
+  color: red;
+}
+a:hover{
+  color: #730b08;
 }
