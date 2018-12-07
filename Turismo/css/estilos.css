@@ -1,0 +1,32 @@
+.navbutton{
+  margin: 10px 20px;
+}
+.cuadrado{
+  width: 100%;
+  height: 150px;
+
+  text-align: center;
+  display: inline-block;
+  position: fixed;
+  z-index: -1;
+}
+body{
+  background-image: url(fondo.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+.logo-social{
+  margin: 5px 15px;
+  border-radius: 5px;
+}
+.logo{
+  border-radius: 5px;
+}
+.imag{
+  width: 100%;
+}
+.bandera{
+  margin-right: 15px;
+  margin-bottom: 15px;
+  max-width: 300px;
+}
